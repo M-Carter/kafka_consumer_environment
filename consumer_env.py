@@ -12,7 +12,7 @@ import logging
 
 from Logger import Logger
 from Daemon import Daemon
-from Mbus2 import Mbus
+from Mbus import Mbus
     
     
 caller = os.path.basename(inspect.stack()[1][1])
